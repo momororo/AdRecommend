@@ -1,0 +1,24 @@
+21:16:22 **** Clean-only build of configuration Release for project NewGame ****
+python /Users/syunpeihayasi/Documents/workspace/NewGame/build_native.py -b release clean 
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../cocos2d/external    
+jni/Android.mk:32: *** Android NDK: Aborting.    .  Stop.
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../cocos2d/cocos    
+Traceback (most recent call last):
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+  File "/Users/syunpeihayasi/Documents/workspace/NewGame/build_native.py", line 159, in <module>
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "/Users/syunpeihayasi/Documents/workspace/NewGame/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "/Users/syunpeihayasi/Documents/workspace/NewGame/build_native.py", line 82, in do_build
+Android NDK: The following directories were searched:    
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Android NDK:         
+Exception: Build dynamic library for project [ /Users/syunpeihayasi/Documents/workspace/NewGame ] fails!
+make: Entering directory `/Users/syunpeihayasi/Documents/workspace/NewGame'
+make: Leaving directory `/Users/syunpeihayasi/Documents/workspace/NewGame'
+The Selected NDK toolchain version was 4.8 !
+
+21:16:23 Build Finished (took 668ms)
+

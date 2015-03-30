@@ -1,0 +1,11 @@
+23:00:19 **** Incremental Build of configuration Release for project WitchRace ****
+python /Users/syunpeihayasi/git/WitchRaceForAndroid/proj.android/build_native.py -b release all 
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make: Entering directory `/Users/syunpeihayasi/git/WitchRaceForAndroid/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make: Leaving directory `/Users/syunpeihayasi/git/WitchRaceForAndroid/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+23:00:21 Build Finished (took 2s.484ms)
+

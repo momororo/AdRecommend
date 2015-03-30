@@ -1,0 +1,135 @@
+package org.cocos2dx.cpp;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.util.Random;
+
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Handler;
+import android.util.Log;
+
+import com.kayac.lobi.sdk.LobiCore;
+import com.kayac.lobi.sdk.LobiCoreAPI;
+import com.kayac.lobi.sdk.ranking.LobiRanking;
+import com.kayac.lobi.sdk.ranking.LobiRankingAPI;
+import com.kskkbys.rate.RateThisApp;
+
+import org.json.JSONObject;
+
+/**
+ * 便利なものを扱うクラス
+ */
+public class CocosUtil {
+
+	/**
+	 * arc4random_uniformの代用品
+	 * 
+	 * @param max
+	 *            最大値
+	 * @return 0~max-1までの乱数
+	 */
+	public static int getRandom(int max) {
+		Random random = new Random();
+		return random.nextInt(max);
+	}
+
+	public static void openReview() {
+		Context context = AppActivity.getContext();
+		if (context == null) {
+			Log.d("openReview", "context = null");
+		}
+		String appPackage = context.getPackageName();
+		Intent intent = new Intent(Intent.ACTION_VIEW,
+				Uri.parse("https://play.google.com/store/apps/details?id="
+						+ appPackage));
+		context.startActivity(intent);
+	}
+
+	public static void openTweetDialog(String tweet) {
+		String url = "";
+		Context context = AppActivity.getContext();
+		try {
+			url = "http://twitter.com/intent/tweet?text="
+					+ URLEncoder.encode(tweet, "UTF-8");
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
+		Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+		context.startActivity(intent);
+	}
+
+	public static void openRanking() {
+		LobiRanking.presentRanking();
+	}
+
+	public static void postHighScore(final int score) {
+		Handler  handler   = new Handler();
+		
+		(new Thread(new Runnable() {
+			@Override
+			public void run() {
+			/* アカウントが作成済みかチェック */
+			if (!LobiCore.isSignedIn()) {
+				Log.d("LobiSDK", "アカウントが作成されていません");
+				return;
+			} else {
+				// TODO アプリのランキングIDを入力する
+				LobiRankingAPI.sendRanking("witchRaceRanking", score,
+						new LobiCoreAPI.APICallback() {
+							@Override
+							public void onResult(int code, JSONObject response) {
+								if (code != LobiCoreAPI.APICallback.SUCCESS) {
+									/* スコアの送信に失敗した場合 */
+									switch (code) {
+									case LobiCoreAPI.APICallback.FATAL_ERROR:
+										Log.e("スコア送信失敗", "FATAL_ERROR");
+										break;
+									case LobiCoreAPI.APICallback.NETWORK_ERROR:
+										Log.e("スコア送信失敗", "NETWORK_ERROR");
+										break;
+									case LobiCoreAPI.APICallback.RESPONSE_ERROR:
+										Log.e("スコア送信失敗", "RESPONSE_ERROR");
+										break;
+									}
+								} else {
+									/* スコアの送信に成功した場合 */
+									Log.d("スコア送信成功", "SUCCESS");
+								}
+							}
+					});
+				}
+			}
+		})).start();
+
+	}
+
+	public static void loginGameCenter() {
+		Log.d("loginGameCenter", "Lobiにログイン");
+		LobiCoreAPI.signupWithBaseName(LobiCore.sharedInstance()
+				.getNewAccountBaseName(), new LobiCoreAPI.APICallback() {
+			@Override
+			public void onResult(int code, JSONObject response) {
+				if (code != LobiCoreAPI.APICallback.SUCCESS) {
+					/* アカウント作成に失敗した場合 */
+					switch (code) {
+					case LobiCoreAPI.APICallback.FATAL_ERROR:
+						Log.e("アカウント作成失敗", "FATAL_ERROR");
+						break;
+					case LobiCoreAPI.APICallback.NETWORK_ERROR:
+						Log.e("アカウント作成失敗", "NETWORK_ERROR");
+						break;
+					case LobiCoreAPI.APICallback.RESPONSE_ERROR:
+						Log.e("アカウント作成失敗", "RESPONSE_ERROR");
+						break;
+					}
+				} else {
+					/* アカウント作成に成功した場合 */
+					Log.d("アカウント作成成功", "SUCCESS");
+				}
+			}
+		});
+	}
+
+}

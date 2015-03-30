@@ -1,0 +1,12 @@
+package org.cocos2dx.cpp;
+
+import android.util.Log;
+
+public class CocosLog {
+	public static void dialog(String tag, String msg) {
+		Log.d(tag,msg);
+	}
+	public static void error(String tag, String msg) {
+		Log.e(tag, msg);
+	}
+}

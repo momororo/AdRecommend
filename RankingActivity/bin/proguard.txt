@@ -1,0 +1,277 @@
+# view res/layout/lobi_horizontal_element_scroller.xml #generated:10
+# view res/layout/lobi_stamp_activity.xml #generated:55
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/lobi_ad_activity.xml #generated:2
+# view res/layout/lobi_group_contact_list_activity.xml #generated:2
+# view res/layout/lobi_profile_profile_activity.xml #generated:1
+# view res/layout/lobi_ranking_activity.xml #generated:2
+# view res/layout/lobi_root_activity.xml #generated:2
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view res/layout/lobi_ad_activity.xml #generated:18
+# view res/layout/lobi_add_friend_search_friend.xml #generated:9
+# view res/layout/lobi_apps_activity.xml #generated:9
+# view res/layout/lobi_chat_chat_activity.xml #generated:15
+# view res/layout/lobi_chat_chat_edit_activity.xml #generated:9
+# view res/layout/lobi_chat_chat_reply_activity.xml #generated:9
+# view res/layout/lobi_chat_group_info_activity.xml #generated:9
+# view res/layout/lobi_chat_group_info_settings_activity.xml #generated:9
+# view res/layout/lobi_chat_group_info_settings_change_leader_activity.xml #generated:9
+# view res/layout/lobi_chat_members.xml #generated:9
+# view res/layout/lobi_group_contact_delete_list_activity.xml #generated:9
+# view res/layout/lobi_group_contact_list_activity.xml #generated:18
+# view res/layout/lobi_group_create_new_group_activity.xml #generated:8
+# view res/layout/lobi_profile_edit_activity.xml #generated:10
+# view res/layout/lobi_profile_profile_activity.xml #generated:16
+# view res/layout/lobi_profile_public_groups_visibility.xml #generated:9
+# view res/layout/lobi_profile_publics_groups.xml #generated:9
+# view res/layout/lobi_ranking_activity.xml #generated:18
+# view res/layout/lobi_root_activity.xml #generated:23
+# view res/layout/lobi_stamp_activity.xml #generated:9
+# view res/layout/lobisdk_menu_activity.xml #generated:8
+-keep class com.kayac.lobi.libnakamap.components.ActionBar { <init>(...); }
+
+# view res/layout/lobi_chat_chat_activity.xml #generated:120
+# view res/layout/lobi_chat_group_info_activity.xml #generated:287
+# view res/layout/lobi_chat_members.xml #generated:27
+# view res/layout/lobi_group_create_new_group_activity.xml #generated:26
+# view res/layout/lobi_profile_profile_activity.xml #generated:55
+# view res/layout/lobi_profile_public_groups_visibility.xml #generated:62
+# view res/layout/lobi_profile_publics_groups.xml #generated:32
+# view res/layout/lobi_stamp_activity.xml #generated:71
+# view res/layout/lobisdk_menu_activity.xml #generated:269
+-keep class com.kayac.lobi.libnakamap.components.AdComponent { <init>(...); }
+
+# view res/layout/lobi_chat_chat_activity.xml #generated:111
+-keep class com.kayac.lobi.libnakamap.components.ChatNewPopup { <init>(...); }
+
+# view res/layout/lobi_list_row_content_checkbox.xml #generated:2
+# view res/layout/lobi_list_row_content_checkbox_small.xml #generated:2
+-keep class com.kayac.lobi.libnakamap.components.CustomCheckbox { <init>(...); }
+
+# view res/layout/lobi_chat_list_ad_item.xml #generated:69
+# view res/layout/lobi_profile_profile_cover_content.xml #generated:53
+# view res/layout/lobi_profile_profile_cover_content.xml #generated:64
+# view res/layout/lobi_profile_profile_cover_content.xml #generated:74
+# view res/layout/lobi_profile_profile_cover_content.xml #generated:92
+-keep class com.kayac.lobi.libnakamap.components.CustomLargeButton { <init>(...); }
+
+# view res/layout/lobi_chat_group_info_activity.xml #generated:71
+# view res/layout/lobi_chat_list_left_item.xml #generated:107
+# view res/layout/lobi_chat_list_right_item.xml #generated:108
+# view res/layout/lobi_chat_list_system_message.xml #generated:39
+# view res/layout/lobi_chat_reply_layout_left.xml #generated:71
+# view res/layout/lobi_chat_reply_layout_right.xml #generated:72
+# view res/layout/lobi_chat_reply_list_left_item.xml #generated:90
+# view res/layout/lobi_profile_profile_cover_content.xml #generated:39
+-keep class com.kayac.lobi.libnakamap.components.CustomTextView { <init>(...); }
+
+# view res/layout/lobi_authorized_root_header.xml #generated:68
+# view res/layout/lobi_chat_group_info_activity.xml #generated:106
+# view res/layout/lobi_chat_group_info_activity.xml #generated:160
+# view res/layout/lobi_chat_group_info_activity.xml #generated:203
+# view res/layout/lobi_chat_group_info_activity.xml #generated:218
+# view res/layout/lobi_chat_group_info_activity.xml #generated:253
+# view res/layout/lobi_chat_group_info_activity.xml #generated:273
+# view res/layout/lobi_chat_group_info_settings_activity.xml #generated:130
+# view res/layout/lobi_chat_group_info_settings_activity.xml #generated:175
+# view res/layout/lobi_chat_group_info_settings_activity.xml #generated:197
+# view res/layout/lobi_chat_group_info_settings_activity.xml #generated:233
+# view res/layout/lobi_chat_group_info_settings_activity.xml #generated:248
+# view res/layout/lobi_community_list_item_category.xml #generated:18
+# view res/layout/lobi_group_create_new_group_activity.xml #generated:100
+# view res/layout/lobi_group_create_new_group_activity.xml #generated:117
+# view res/layout/lobi_profile_edit_activity.xml #generated:91
+# view res/layout/lobi_profile_profile_cover_content.xml #generated:121
+# view res/layout/lobisdk_menu_activity.xml #generated:123
+# view res/layout/lobisdk_menu_activity.xml #generated:146
+# view res/layout/lobisdk_menu_activity.xml #generated:175
+# view res/layout/lobisdk_menu_activity.xml #generated:188
+# view res/layout/lobisdk_menu_activity.xml #generated:201
+# view res/layout/lobisdk_menu_activity.xml #generated:214
+# view res/layout/lobisdk_menu_activity.xml #generated:227
+# view res/layout/lobisdk_menu_activity.xml #generated:240
+# view res/layout/lobisdk_menu_activity.xml #generated:253
+# view res/layout/lobisdk_menu_activity.xml #generated:44
+# view res/layout/lobisdk_menu_activity.xml #generated:55
+# view res/layout/lobisdk_menu_activity.xml #generated:69
+# view res/layout/lobisdk_menu_activity.xml #generated:83
+-keep class com.kayac.lobi.libnakamap.components.DividerView { <init>(...); }
+
+# view res/layout/lobi_chat_list_header_layout.xml #generated:16
+# view res/layout/lobi_chat_list_header_member_icon.xml #generated:2
+# view res/layout/lobi_group_list_item.xml #generated:25
+# view res/layout/lobi_group_public_list_item.xml #generated:20
+# view res/layout/lobi_list_row_content_framed_icon_m.xml #generated:2
+# view res/layout/lobi_list_row_content_framed_icon_menu.xml #generated:2
+# view res/layout/lobi_list_row_content_framed_icon_s.xml #generated:2
+# view res/layout/lobi_profile_profile_cover_content.xml #generated:203
+# view res/layout/lobi_profile_public_groups_item.xml #generated:19
+# view res/layout/lobi_ranking_list_item.xml #generated:20
+-keep class com.kayac.lobi.libnakamap.components.FramedImageLoader { <init>(...); }
+
+# view res/layout/lobi_stamp_activity.xml #generated:34
+-keep class com.kayac.lobi.libnakamap.components.HorizontalElementScroller { <init>(...); }
+
+# view res/layout/lobi_group_wrapper_content_layout.xml #generated:8
+-keep class com.kayac.lobi.libnakamap.components.ImageLoaderSquareView { <init>(...); }
+
+# view res/layout/lobi_action_bar_account_thumbnail.xml #generated:8
+# view res/layout/lobi_chat_chat_activity.xml #generated:86
+# view res/layout/lobi_chat_chat_reply_activity.xml #generated:19
+# view res/layout/lobi_chat_group_info_activity.xml #generated:35
+# view res/layout/lobi_chat_list_ad_item.xml #generated:33
+# view res/layout/lobi_chat_list_ad_item.xml #generated:63
+# view res/layout/lobi_chat_list_left_item.xml #generated:124
+# view res/layout/lobi_chat_list_left_item.xml #generated:24
+# view res/layout/lobi_chat_list_right_item.xml #generated:125
+# view res/layout/lobi_chat_list_right_item.xml #generated:204
+# view res/layout/lobi_chat_pick_preview_horizontall_scroller_item.xml #generated:13
+# view res/layout/lobi_chat_refer_layout.xml #generated:13
+# view res/layout/lobi_chat_reply_layout_left.xml #generated:32
+# view res/layout/lobi_chat_reply_layout_left.xml #generated:87
+# view res/layout/lobi_chat_reply_layout_right.xml #generated:57
+# view res/layout/lobi_chat_reply_layout_right.xml #generated:88
+# view res/layout/lobi_chat_reply_list_left_item.xml #generated:106
+# view res/layout/lobi_chat_reply_list_left_item.xml #generated:18
+# view res/layout/lobi_custom_dialog_content_image.xml #generated:15
+# view res/layout/lobi_framed_image_loader.xml #generated:6
+# view res/layout/lobi_horizontal_element_scroller_item.xml #generated:26
+# view res/layout/lobi_list_row_content_framed_icon_l.xml #generated:7
+# view res/layout/lobi_list_row_content_image_loader_64dp.xml #generated:2
+# view res/layout/lobi_list_row_content_image_loader_big.xml #generated:9
+# view res/layout/lobi_list_row_content_image_loader_icon.xml #generated:2
+# view res/layout/lobi_menu_drawer_header.xml #generated:16
+# view res/layout/lobi_notification_list_item.xml #generated:28
+# view res/layout/lobi_notification_list_item.xml #generated:35
+# view res/layout/lobi_profile_cover.xml #generated:56
+# view res/layout/lobi_profile_cover.xml #generated:9
+# view res/layout/lobi_profile_edit_activity.xml #generated:30
+# view res/layout/lobi_stamp_item.xml #generated:13
+-keep class com.kayac.lobi.libnakamap.components.ImageLoaderView { <init>(...); }
+
+# view res/layout/lobi_chat_chat_activity.xml #generated:23
+-keep class com.kayac.lobi.libnakamap.components.InputAreaMaskView { <init>(...); }
+
+# view res/layout/lobi_light_box.xml #generated:2
+-keep class com.kayac.lobi.libnakamap.components.LightBox$FrameLayout { <init>(...); }
+
+# view res/layout/lobi_chat_group_info_activity.xml #generated:142
+# view res/layout/lobi_chat_group_info_activity.xml #generated:186
+# view res/layout/lobi_chat_group_info_activity.xml #generated:207
+# view res/layout/lobi_chat_group_info_activity.xml #generated:244
+# view res/layout/lobi_chat_group_info_activity.xml #generated:264
+# view res/layout/lobi_chat_group_info_activity.xml #generated:50
+# view res/layout/lobi_chat_group_info_leader_change_item.xml #generated:2
+# view res/layout/lobi_chat_group_info_settings_activity.xml #generated:134
+# view res/layout/lobi_chat_group_info_settings_activity.xml #generated:165
+# view res/layout/lobi_chat_group_info_settings_activity.xml #generated:187
+# view res/layout/lobi_chat_group_info_settings_activity.xml #generated:212
+# view res/layout/lobi_chat_group_info_settings_activity.xml #generated:237
+# view res/layout/lobi_chat_member_list_item.xml #generated:2
+# view res/layout/lobi_community_list_item_category.xml #generated:9
+# view res/layout/lobi_contact_list_header.xml #generated:10
+# view res/layout/lobi_custom_dialog_content_text_and_checkbox.xml #generated:27
+# view res/layout/lobi_group_contact_list_item.xml #generated:1
+# view res/layout/lobi_group_create_new_group_activity.xml #generated:106
+# view res/layout/lobi_group_create_new_group_activity.xml #generated:82
+# view res/layout/lobi_menu_drawer_item.xml #generated:1
+# view res/layout/lobi_profile_edit_activity.xml #generated:75
+# view res/layout/lobi_profile_profile_activity.xml #generated:43
+# view res/layout/lobi_profile_profile_cover_content.xml #generated:257
+# view res/layout/lobi_profile_profile_cover_content.xml #generated:298
+# view res/layout/lobi_profile_profile_cover_content.xml #generated:329
+# view res/layout/lobi_profile_public_groups_visibility_item.xml #generated:2
+# view res/layout/lobi_search_friend_list_item.xml #generated:2
+# view res/layout/lobi_setting_dialog_row.xml #generated:2
+# view res/layout/lobisdk_menu_activity.xml #generated:106
+# view res/layout/lobisdk_menu_activity.xml #generated:127
+# view res/layout/lobisdk_menu_activity.xml #generated:166
+# view res/layout/lobisdk_menu_activity.xml #generated:179
+# view res/layout/lobisdk_menu_activity.xml #generated:192
+# view res/layout/lobisdk_menu_activity.xml #generated:205
+# view res/layout/lobisdk_menu_activity.xml #generated:218
+# view res/layout/lobisdk_menu_activity.xml #generated:231
+# view res/layout/lobisdk_menu_activity.xml #generated:244
+# view res/layout/lobisdk_menu_activity.xml #generated:257
+# view res/layout/lobisdk_menu_activity.xml #generated:35
+# view res/layout/lobisdk_menu_activity.xml #generated:59
+# view res/layout/lobisdk_menu_activity.xml #generated:74
+-keep class com.kayac.lobi.libnakamap.components.ListRow { <init>(...); }
+
+# view res/layout/lobi_list_row_content_one_line.xml #generated:2
+-keep class com.kayac.lobi.libnakamap.components.ListRow$OneLine { <init>(...); }
+
+# view res/layout/lobi_list_row_content_one_line_small.xml #generated:2
+-keep class com.kayac.lobi.libnakamap.components.ListRow$OneLineSmall { <init>(...); }
+
+# view res/layout/lobi_list_row_content_two_line.xml #generated:2
+# view res/layout/lobi_list_row_content_two_line_with_icon.xml #generated:2
+-keep class com.kayac.lobi.libnakamap.components.ListRow$TwoLine { <init>(...); }
+
+# view res/layout/lobi_list_row_content_menu_drawer_icon.xml #generated:2
+-keep class com.kayac.lobi.libnakamap.components.MenuDrawer$CheckableIcon { <init>(...); }
+
+# view res/layout/lobi_ad_activity.xml #generated:10
+# view res/layout/lobi_group_contact_list_activity.xml #generated:10
+# view res/layout/lobi_profile_profile_activity.xml #generated:9
+# view res/layout/lobi_ranking_activity.xml #generated:10
+# view res/layout/lobi_root_activity.xml #generated:15
+-keep class com.kayac.lobi.libnakamap.components.MenuDrawer$ContentFrame { <init>(...); }
+
+# view res/layout/lobi_profile_profile_fragment.xml #generated:9
+-keep class com.kayac.lobi.libnakamap.components.ProfileCover { <init>(...); }
+
+# view res/layout/lobi_add_friend_search_friend.xml #generated:15
+# view res/layout/lobi_chat_group_info_settings_change_leader_activity.xml #generated:15
+# view res/layout/lobi_group_contact_list_activity.xml #generated:24
+-keep class com.kayac.lobi.libnakamap.components.SearchBox { <init>(...); }
+
+# view res/layout/lobi_chat_group_info_activity.xml #generated:136
+# view res/layout/lobi_chat_group_info_activity.xml #generated:179
+# view res/layout/lobi_chat_group_info_activity.xml #generated:233
+# view res/layout/lobi_chat_group_info_settings_activity.xml #generated:160
+# view res/layout/lobi_chat_group_info_settings_activity.xml #generated:180
+# view res/layout/lobi_chat_group_info_settings_activity.xml #generated:201
+# view res/layout/lobi_contact_list_header.xml #generated:29
+# view res/layout/lobi_list_row.xml #generated:6
+# view res/layout/lobi_profile_edit_activity.xml #generated:69
+# view res/layout/lobi_profile_profile_cover_content.xml #generated:227
+# view res/layout/lobi_profile_profile_cover_content.xml #generated:269
+# view res/layout/lobi_profile_profile_cover_content.xml #generated:310
+# view res/layout/lobisdk_menu_activity.xml #generated:161
+# view res/layout/lobisdk_menu_activity.xml #generated:30
+# view res/layout/lobisdk_menu_activity.xml #generated:99
+-keep class com.kayac.lobi.libnakamap.components.SectionView { <init>(...); }
+
+# view res/layout/lobi_list_row_content_toggle.xml #generated:7
+-keep class com.kayac.lobi.libnakamap.components.ToggleOnOffButton { <init>(...); }
+
+# view res/layout/lobi_chat_chat_reply_activity.xml #generated:121
+# view res/layout/lobi_chat_edit_component_layout.xml #generated:21
+# view res/layout/lobi_chat_group_info_settings_activity.xml #generated:104
+# view res/layout/lobi_chat_group_info_settings_activity.xml #generated:71
+# view res/layout/lobi_custom_dialog_content_edittext.xml #generated:14
+# view res/layout/lobi_custom_dialog_content_online_edittext.xml #generated:14
+# view res/layout/lobi_group_create_new_group_activity.xml #generated:35
+# view res/layout/lobi_profile_edit_activity.xml #generated:116
+# view res/layout/lobi_profile_edit_activity.xml #generated:153
+# view res/layout/lobi_search_box.xml #generated:15
+-keep class com.kayac.lobi.libnakamap.components.UIEditText { <init>(...); }
+
+# view res/layout/lobi_profile_cover.xml #generated:18
+-keep class com.kayac.lobi.libnakamap.components.UIScrollView { <init>(...); }
+
+# view res/layout/lobi_chat_chat_activity.xml #generated:55
+# view res/layout/lobi_chat_chat_reply_activity.xml #generated:114
+# view res/layout/lobi_chat_edit_component_layout.xml #generated:77
+-keep class com.kayac.lobi.sdk.chat.activity.ChatEditPictureButton { <init>(...); }
+
+# view res/layout/lobi_chat_edit_component_layout.xml #generated:103
+# view res/layout/lobi_stamp_activity.xml #generated:27
+-keep class com.kayac.lobi.sdk.chat.activity.ChatEditShoutButton { <init>(...); }
+
+# view AndroidManifest.xml #generated:8
+-keep class com.kayac.lobi.sdk.ranking.activity.RankingActivity { <init>(...); }
+

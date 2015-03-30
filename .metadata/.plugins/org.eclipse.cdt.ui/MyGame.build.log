@@ -1,0 +1,11 @@
+16:50:41 **** Clean-only build of configuration Release for project MyGame ****
+python /Users/syunpeihayasi/Documents/workspace/MyGame/proj.android/build_native.py -b release clean 
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make: Entering directory `/Users/syunpeihayasi/Documents/workspace/MyGame/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make: Leaving directory `/Users/syunpeihayasi/Documents/workspace/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+16:50:43 Build Finished (took 1s.706ms)
+
